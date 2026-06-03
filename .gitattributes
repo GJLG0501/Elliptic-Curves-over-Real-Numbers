@@ -1,0 +1,18 @@
+# Normalizar todos los archivos de texto a LF en el repo
+* text=auto
+
+# Forzar LF para estos tipos de archivo
+*.py    text eol=lf
+*.ipynb text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Archivos binarios: no tocar los finales de línea
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
